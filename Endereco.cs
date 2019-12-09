@@ -1,5 +1,5 @@
 using System;
-class Endereco{
+public class Endereco{
   private string Rua;
   private string Numero;
   private string Bairro;
@@ -20,7 +20,7 @@ class Endereco{
     Bairro = b;
     Municipio = m;
     Estado = "Espirito Santo";
-    Pais = "Espirito Santo";
+    Pais = "Brasil";
   }
   public string getRua(){
     return Rua;
